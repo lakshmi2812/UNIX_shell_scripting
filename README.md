@@ -1,5 +1,5 @@
 # UNIX_shell_scripting
-Write down the frequently used commands and basic shell scripts
+Introduction to the basics of the BASH shell, the frequently used commands and some BASH scripts
 
 Notes:
 UNIX is a multi-user Operating System(OS). Apple's MAC OS is based on UNIX. 
@@ -10,6 +10,9 @@ BASH is a popular shell program. A variant of BASH called ZSH is also very popul
 ## COMMANDS:
 ``` ps $$ ```
 Tells the type of shell that is being used with our current system. By checking the name under the command column, we can tell if the default shell for our system is BASH or ZSH
+If the name of the default shell for your system is not BASH, type the ``` bash ``` command to switch to BASH.
+
+
 
 
 
