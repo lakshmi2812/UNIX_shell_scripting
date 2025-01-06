@@ -10,7 +10,10 @@ BASH is a popular shell program. A variant of BASH called ZSH is also very popul
 ## COMMANDS:
 ``` ps $$ ```
 Tells the type of shell that is being used with our current system. By checking the name under the command column, we can tell if the default shell for our system is BASH or ZSH
+
 If the name of the default shell for your system is not BASH, type the ``` bash ``` command to switch to BASH.
+
+
 
 
 
