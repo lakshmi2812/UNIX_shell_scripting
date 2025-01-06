@@ -17,6 +17,10 @@ Type ``` bash --version ``` to find out the BASH version
 
 Type the commands ``` whoami ``` and ``` hostname ``` to get the current username(remember, BASH is a multi-user OS!) and the hostname respectively.
 
+Type the ``` exit ``` command or ``` Ctrl + D ``` to end the session
+
+
+
 
 
 
