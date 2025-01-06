@@ -8,7 +8,7 @@ A shell is a program that allows a user to interact with the Operating System's 
 BASH is a popular shell program. A variant of BASH called ZSH is also very popular with MAC OS.
 
 ## COMMANDS:
-''' ps $$ '''
+``` ps $$ ```
 Tells the type of shell that is being used with our current system. By checking the name under the command column, we can tell if the default shell for our system is BASH or ZSH
 
 
