@@ -7,3 +7,9 @@ A Kernel is at the heart of an Operating System. The Kernel is a program that ge
 A shell is a program that allows a user to interact with the Operating System's kernel. The shell gets loaded when the user logs in to a UNIX-based system or when the user opens a terminal.The shell allows the user to interact with the kernel either by typing commands at the command prompt or by using a script file.
 BASH is a popular shell program. A variant of BASH called ZSH is also very popular with MAC OS.
 
+## COMMANDS:
+''' ps $$ '''
+Tells the type of shell that is being used with our current system. By checking the name under the command column, we can tell if the default shell for our system is BASH or ZSH
+
+
+
