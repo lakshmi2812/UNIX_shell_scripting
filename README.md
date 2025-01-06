@@ -13,6 +13,10 @@ Tells the type of shell that is being used with our current system. By checking 
 
 If the name of the default shell for your system is not BASH, type the ``` bash ``` command to switch to BASH.
 
+Type ``` bash --version ``` to find out the BASH version
+
+
+
 
 
 
