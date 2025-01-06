@@ -15,6 +15,10 @@ If the name of the default shell for your system is not BASH, type the ``` bash 
 
 Type ``` bash --version ``` to find out the BASH version
 
+Type the commands ``` whoami ``` and ``` hostname ``` to get the current username(remember, BASH is a multi-user OS!) and the hostname respectively.
+
+
+
 
 
 
