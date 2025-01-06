@@ -19,6 +19,11 @@ Type the commands ``` whoami ``` and ``` hostname ``` to get the current usernam
 
 Type the ``` exit ``` command or ``` Ctrl + D ``` to end the session
 
+Type the ``` clear ``` command to clear the terminal screen
+
+
+
+
 
 
 
