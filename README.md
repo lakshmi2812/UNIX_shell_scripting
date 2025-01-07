@@ -23,7 +23,7 @@ Type the ``` clear ``` command to clear the terminal screen
 
 Note: When we type a command and then press Enter (the Return key), the shell adds a new line character to it and then the Bash Interpreter interprets the command.
 What we have entered can be a built-in Shell command, or an executable file somewhere in the file system. If it is a built-in command, the shell interpreter executes the command.
-If it is an executable file, ###it will search for the file in a specific path. This is probably what the PATH variable specifies? We will come back to this later!
+If it is an executable file, **it will search for the file in a specific path**. This is probably what the PATH variable specifies? We will come back to this later!
 
 The ``` type ``` command can be used to find out whether what we have entered after it is a built-in shell command or an executable. If it is none of these, the Shell will throw an error.
 
