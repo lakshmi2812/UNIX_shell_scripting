@@ -30,7 +30,7 @@ The ``` type ``` command can be used to find out whether what we have entered af
 Example:
 ``` type cd ``` returns a message that ``` cd ``` is a shell built-in
 
-**Note:** The echo command is used to print something (output something) to the terminal. If we use echo command with teh option ```-n``` it omits the new line character that is printed by default after printing anything in the terminal.
+**Note:** The echo command is used to print something (output something) to the terminal. If we use echo command with the option ```-n``` it omits the new line character that is printed by default after printing anything in the terminal.
 
 
 
