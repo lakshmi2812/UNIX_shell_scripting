@@ -36,6 +36,25 @@ Example:
 ```echo hello``` prints hello and a new line
 ```echo -n hello``` prints hello and then, prints the BASH prompt in the same line
 
+**Note:**
+UNIX has a tree-like directory structure. So, imagine a tree. At the bottom(root) of the tree, is the root directory denoted by the ```/``` character. The sub directories of the root are like the branches of the tree. To address a sub-directory under the root, we type ```/Shared``` for example. There is a directory called the Home directory, represented by the ```~``` symbol. So, ```cd ~``` will take us to the Home directoty.
+
+Type ```cd``` to change directory and go to a specific directory. 
+Example: ```cd ~/Dociments``` to navigate to the Documents directory.
+
+Type ```ls``` to list all the files under the directory
+Example: Navigate to the Documents directory and type ```ls``` to list all the directories and files under the Documents directory.
+
+Type ```pwd``` to print the absolute path of the current directory to which we have navigated.
+
+**Note: Absolute path and Relative path**
+Absolute path: Absolute path denotes the path that starts from the root directory.
+Example: ```/users/abc/def/Pictures``` is an absolute path.
+Relative path: 
+
+
+
+
 
 
 
