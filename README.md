@@ -32,13 +32,9 @@ Example:
 
 **Note:** The echo command is used to print something (output something) to the terminal. If we use echo command with the option ```-n``` it omits the new line character that is printed by default after printing anything in the terminal.
 
-
-
-
-
-
-
-
+Example:
+```echo hello``` prints hello and a new line
+```echo -n hello``` prints hello and then, prints the BASH prompt in the same line
 
 
 
