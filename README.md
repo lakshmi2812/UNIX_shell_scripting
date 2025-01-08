@@ -49,8 +49,11 @@ Type ```pwd``` to print the absolute path of the current directory to which we h
 
 **Note: Absolute path and Relative path**
 Absolute path: Absolute path denotes the path that starts from the root directory.
-Example: ```/users/abc/def/Pictures``` is an absolute path.
-Relative path: 
+Example: ```/users/username/Documents/Pictures``` is an absolute path.
+Relative path: Relative path is the path relative to the current directory.
+Example: If we are currently within the Documents directory, and if we want to navigate to the Pictures directory, we can simple type ```cd Pictures``` instead of typing the entire absolute path of the Pictures directory.
+
+
 
 
 
