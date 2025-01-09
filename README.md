@@ -68,6 +68,9 @@ The ```?``` wildcard can be used when we have only one unknown character.
 For Example, let us say we have a directory called MECH with several sub-directories such as MECH_283, MECH_287, MECH_289, MECH_275 inside it.
 Type ```ls MECH_28?``` to list all the contents inside the MECH_283, MECH_287 and MECH_289 directories.
 
+The ```*``` wildcard can be used to match the file or dircetory names which can have several unknown characters.
+For Example, Type ```ls *.pdf``` to list all the files that have a .pdf extension in the current directory
+
 
 
 
