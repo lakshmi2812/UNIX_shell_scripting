@@ -63,6 +63,7 @@ If you type ```cd -``` you will navigate back to ```/users/username/Documents/Pi
 Type ```ls -a``` to see the list of hidden files (the ones that start with a period.) under the current directory
 
 **Wildcards:**
+
 Wildcards allow us to list the files or directories whose names we do not know completely.
 The ```?``` wildcard can be used when we have only one unknown character.
 For Example, let us say we have a directory called MECH with several sub-directories such as MECH_283, MECH_287, MECH_289, MECH_275 inside it.
@@ -70,6 +71,11 @@ Type ```ls MECH_28?``` to list all the contents inside the MECH_283, MECH_287 an
 
 The ```*``` wildcard can be used to match the file or dircetory names which can have several unknown characters.
 For Example, Type ```ls *.pdf``` to list all the files that have a .pdf extension in the current directory
+The ```[]``` wildcard can be used when we want to match a set of characters
+
+The ```{}``` wildcard can be used to append or prepend strings
+Example: Type ```echo s{a,i,u}ng``` will print sang sing sung to the terminal
+
 
 
 
