@@ -53,6 +53,14 @@ Example: ```/users/username/Documents/Pictures``` is an absolute path.
 Relative path: Relative path is the path relative to the current directory.
 Example: If we are currently within the Documents directory, and if we want to navigate to the Pictures directory, we can simple type ```cd Pictures``` instead of typing the entire absolute path of the Pictures directory.
 
+Type ```cd ..``` to navigate to the parent directory
+
+Type ```cd -``` to navigate to the previous directory
+Example: Let's say that you are currently located at ```/users/username/Documents/Pictures```
+Let's say that you now navigated to ```/Users/Shared```
+If you type ```cd -``` you will navigate back to ```/users/username/Documents/Pictures```
+
+
 
 
 
