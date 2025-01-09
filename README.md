@@ -60,6 +60,16 @@ Example: Let's say that you are currently located at ```/users/username/Document
 Let's say that you now navigated to ```/Users/Shared```
 If you type ```cd -``` you will navigate back to ```/users/username/Documents/Pictures```
 
+Type ```ls -a``` to see the list of hidden files (the ones that start with a period.) under the current directory
+
+**Wildcards:**
+Wildcards allow us to list the files or directories whose names we do not know completely.
+The ```?``` wildcard can be used when we have only one unknown character.
+For Example, let us say we have a directory called MECH with several sub-directories such as MECH_283, MECH_287, MECH_289, MECH_275 inside it.
+Type ```ls MECH_28?``` to list all the contents inside the MECH_283, MECH_287 and MECH_289 directories.
+
+
+
 
 
 
