@@ -75,6 +75,10 @@ The ```[]``` wildcard can be used when we want to match a set of characters
 
 The ```{}``` wildcard can be used to append or prepend strings
 Example: Type ```echo s{a,i,u}ng``` will print sang sing sung to the terminal
+Use ```{}``` with ```..``` to expand a sequence of letters or numbers
+Example: Type ```echo {a..z}``` to print letters from a to z to the terminal. Type ```echo {1..10}``` to [rint the numbers from 1 to 10 to the terminal.
+
+
 
 
 
