@@ -86,6 +86,16 @@ Example: Type ```echo {a..z}``` to print letters from a to z to the terminal. Ty
 ```$``` -> denotes a SHELL variable
 ```;``` -> command separator (allows you to write mutiple commands on the same line)
 
+**Phrases**
+Let's say we want to write an entire phrase/sentence to the output. To do this, we can use the ```\``` character along with the ```echo``` command.
+Example: Type  ```echo Today is a great day, \
+            this is the day when my country got Independence. We \
+            celebrate this day with great enthusiasm in my country.``` and then press the Return key.
+The entire sentence will be printed to the output at a stretch.
+
+
+            
+
 
 
 
