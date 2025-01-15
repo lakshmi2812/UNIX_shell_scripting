@@ -101,9 +101,11 @@ Alternatively, we can use the backslash ```\``` character to escape the variable
 Example: echo \$BASH_VERSION gives us information about the current version of BASH will also print the sentence as it is to teh output, without interpreting the ```$BASH_VERSION``` variable.
 
 **Getting help**:
-The ```help``` command gives us information about all th BASH built-in commands.
+The ```help``` command gives us information about all the BASH built-in commands.
 Example: Type ```help``` to get all this information, spanning several screens.
 Or, type ```help | more``` to get this information one screen at a time
+You can also use the ```help``` command to get information about a specific command.
+Example: ```help ps``` to know about the ```ps``` command.
 
 The ```man``` command can be used to get information about any SHELL bult-in command or a program on the file system.
 Example: Type ```man ps``` to get information about the ```ps``` command 
