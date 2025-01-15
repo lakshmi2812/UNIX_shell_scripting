@@ -105,10 +105,17 @@ The ```help``` command gives us information about all the BASH built-in commands
 Example: Type ```help``` to get all this information, spanning several screens.
 Or, type ```help | more``` to get this information one screen at a time
 You can also use the ```help``` command to get information about a specific command.
-Example: ```help ps``` to know about the ```ps``` command.
+Example: Type ```help exit``` to know about the ```exit``` command.
+Note that the help command can only be used to get info about the built-in commands and not the shell programs on a file system.
+Example: If you type ```help ps``` , you will get an error, since ```ps``` is more like a program on teh files system.
 
 The ```man``` command can be used to get information about any SHELL bult-in command or a program on the file system.
 Example: Type ```man ps``` to get information about the ```ps``` command 
+
+**Basename:**
+To extract the file name or directory name at the end of a path, use the ```basename``` command.
+Example: Type ```basename /a/b/c.txt``` to extract the file name in the given path
+
 
 
             
