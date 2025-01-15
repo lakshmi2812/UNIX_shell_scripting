@@ -112,6 +112,8 @@ Example: If you type ```help ps``` , you will get an error, since ```ps``` is mo
 The ```man``` command can be used to get information about any SHELL bult-in command or a program on the file system.
 Example: Type ```man ps``` to get information about the ```ps``` command 
 
+**Files and Directories**
+
 **Basename:**
 To extract the file name or directory name at the end of a path, use the ```basename``` command.
 Example: Type ```basename /a/b/c.txt``` to extract the file name in the given path. Result will be ```c.txt```
@@ -119,6 +121,10 @@ Example: Type ```basename /a/b/c.txt``` to extract the file name in the given pa
 **Pathname:**
 Conversely, to remove the filename or directory name occuring at the end of a given path, we can us ethe ```pathname``` command.
 Example: Type ```pathname /a/b/c.txt``` to get remove the filename at the end of the path. Result will be ```/a/b```
+
+
+
+
 
 
 
