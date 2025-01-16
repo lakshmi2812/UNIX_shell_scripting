@@ -124,11 +124,12 @@ Example: Type ```pathname /a/b/c.txt``` to get remove the filename at the end of
 
 **mv and cp commands**
 The ```mv``` command is used to move a file from one loation(directory) to the other. ```mv``` takes two arguments, first one is the name of the file you want to move and the second one is path to the new location where it is to be moved. \
-Example: ```mv parrot.txt birds```. This command moves the file parrot.txt to the birds sub-directory within the same directory.
+Example: ```mv parrot.txt birds```. This command moves the file parrot.txt to the birds sub-directory within the same directory.\
 Note: If the new location(directory) contains a file of the same name, that file will be overridden without warning. If you want to be warned about this, use the ```mv``` command with the ```-i``` option.\
 Example: Let us say we are at location ```/x/y``` which has the contents a.txt and a sub-directory called notebook. Let us say that notebook also has a file called a.txt. If we type ```mv -i a.txt notebook/a.txt``` we get a prompt asking if we want to overwrite the a.txt at the destination.\
 Note: The ```mv``` command can also be used to rename a file. You can specify the current file name as the first argument and the new file name as the second argument to rename a file.\
 Example: ```mv abcd.txt readme.txt``` renames the file to ```readme.txt```\
+
 
 
 
