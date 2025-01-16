@@ -9,19 +9,19 @@ BASH is a popular shell program. A variant of BASH called ZSH is also very popul
 
 ## COMMANDS:
 ``` ps $$ ```
-Tells the type of shell that is being used with our current system. By checking the name under the command column, we can tell if the default shell for our system is BASH or ZSH
+Tells the type of shell that is being used with our current system. By checking the name under the command column, we can tell if the default shell for our system is BASH or ZSH\
 
-If the name of the default shell for your system is not BASH, type the ``` bash ``` command to switch to BASH.
+If the name of the default shell for your system is not BASH, type the ``` bash ``` command to switch to BASH.\
 
-Type ``` bash --version ``` to find out the BASH version
+Type ``` bash --version ``` to find out the BASH version\
 
-Type the commands ``` whoami ``` and ``` hostname ``` to get the current username(remember, BASH is a multi-user OS!) and the hostname respectively.
+Type the commands ``` whoami ``` and ``` hostname ``` to get the current username(remember, BASH is a multi-user OS!) and the hostname respectively.\
 
-Type the ``` exit ``` command or ``` Ctrl + D ``` to end the session
+Type the ``` exit ``` command or ``` Ctrl + D ``` to end the session\
 
-Type the ``` clear ``` command to clear the terminal screen
+Type the ``` clear ``` command to clear the terminal screen\
 
-**Note:** When we type a command and then press Enter (the Return key), the shell adds a new line character to it and then the Bash Interpreter interprets the command.
+**Note:** When we type a command and then press Enter (the Return key), the shell adds a new line character to it and then the Bash Interpreter interprets the command.\
 What we have entered can be a built-in Shell command, or an executable file somewhere in the file system. If it is a built-in command, the shell interpreter executes the command.
 If it is an executable file, **it will search for the file in a specific path**. This is probably what the PATH variable specifies? We will come back to this later!
 
