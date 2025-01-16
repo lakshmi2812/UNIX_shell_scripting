@@ -122,7 +122,9 @@ Example: Type ```basename /a/b/c.txt``` to extract the file name in the given pa
 Conversely, to remove the filename or directory name occuring at the end of a given path, we can us ethe ```pathname``` command.
 Example: Type ```pathname /a/b/c.txt``` to get remove the filename at the end of the path. Result will be ```/a/b```
 
-**mv and cp commands**
+**mv and cp commands**\
+```mv``` \
+
 The ```mv``` command is used to move a file from one loation(directory) to the other. ```mv``` takes two arguments, first one is the name of the file you want to move and the second one is path to the new location where it is to be moved. \
 Example: ```mv parrot.txt birds```. This command moves the file parrot.txt to the birds sub-directory within the same directory.\
 Note: If the new location(directory) contains a file of the same name, that file will be overridden without warning. If you want to be warned about this, use the ```mv``` command with the ```-i``` option.\
