@@ -123,7 +123,7 @@ Conversely, to remove the filename or directory name occuring at the end of a gi
 Example: Type ```pathname /a/b/c.txt``` to get remove the filename at the end of the path. Result will be ```/a/b```
 
 **mv and cp commands**\
-```mv``` \
+```mv```
 
 The ```mv``` command is used to move a file from one loation(directory) to the other. ```mv``` takes two arguments, first one is the name of the file you want to move and the second one is path to the new location where it is to be moved. \
 Example: ```mv parrot.txt birds```. This command moves the file parrot.txt to the birds sub-directory within the same directory.\
