@@ -122,15 +122,37 @@ Example: Type ```basename /a/b/c.txt``` to extract the file name in the given pa
 Conversely, to remove the filename or directory name occuring at the end of a given path, we can us ethe ```pathname``` command.
 Example: Type ```pathname /a/b/c.txt``` to get remove the filename at the end of the path. Result will be ```/a/b```
 
-**mv and cp commands**\
+**mv, cp and rm commands**\
 ```mv```
-
 The ```mv``` command is used to move a file from one loation(directory) to the other. ```mv``` takes two arguments, first one is the name of the file you want to move and the second one is path to the new location where it is to be moved. \
 Example: ```mv parrot.txt birds```. This command moves the file parrot.txt to the birds sub-directory within the same directory.\
 Note: If the new location(directory) contains a file of the same name, that file will be overridden without warning. If you want to be warned about this, use the ```mv``` command with the ```-i``` option.\
 Example: Let us say we are at location ```/x/y``` which has the contents a.txt and a sub-directory called notebook. Let us say that notebook also has a file called a.txt. If we type ```mv -i a.txt notebook/a.txt``` we get a prompt asking if we want to overwrite the a.txt at the destination.\
 Note: The ```mv``` command can also be used to rename a file. You can specify the current file name as the first argument and the new file name as the second argument to rename a file.\
 Example: ```mv abcd.txt readme.txt``` renames the file to ```readme.txt```\
+
+```cp```
+The ```cp``` command allows us to create a copy of one or more files to another location, while keeping the contents of the original files and location intact.
+Example: Let us say that we have two files at the paths ```/a/b/dummy1.txt``` and ```/a/b/dummy2.txt```. Let us say that ```/a/b/dummies``` is a sub-directory in the directory named b. Now if we want to copy dummy1.txt and dummy2.txt to the dummies directory, we can do it like this: \
+First, navigate to the directory b like this:  ```cd /a/b```, then type ```cp dummy1.txt dummy2.txt dummies```
+This will make a copy of both dummy1.txt and dummy2.txt in the dummies directory.
+
+```rm```
+The ```rm``` command is used to remove one or more files. If we want to remove all the files in a directory, we can use the * wildcard with ```rm``` to do so.
+Example: Let us say that the directory /x/y has the files x1.txt and x2.txt. If we want to remove x1.txt, we can do so like this: \
+Type ```rm x1.txt```
+If we want to remove all the files from /x/y, we can do so like this:
+Navigate to /x/y and type: ```rm *```
+Note: ```rm *``` will remove all the files in the directory, including all the hidden files as well. So, we need to use it with caution. Looks like it is better to use the earlier ```rm -ri``` which will ask us before deleting each file, to clean up our directories (by removing unwanted files). \
+
+**Adding links:**
+
+
+
+
+
+
+
 
 
 
