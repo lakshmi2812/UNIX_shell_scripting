@@ -152,6 +152,23 @@ Note: We can display the contents of a text file(.txt file) to the terminal by u
 Example: Type ```cat dummy1.txt``` to display the contents of dummy1.txt to the terminal. 
 
 **Adding links:**
+```ln```
+
+The ```ln``` command can be used to create links for a file. There are two types of links: hardlink and softlink.
+A hardlink file is named as .hardlink, a softlink file is named as .softlink \
+To ```ln``` command creates a hardlink by default. To create a hardlink for a file at the location /a/b/dummy1.txt: \
+Type ```ln dummy1.txt dummy1.hardlink``` \
+Now, you can use the hardlink to display the contents of the file like this:
+Type ```cat dummy1.hardlink``` to display the contents of dummy.txt to the terminal. \
+If you delete the file dummy1.txt, you can still display the contents of it by typing ```cat dummy.hardlink```!!
+
+To create a softlink, use the ```-s``` flag with the ```ln``` command
+Example: Type ```ln -s dummy2.txt dummy2.softlink``` \
+Now, you can use the softlink as well to display the contents of dummy2.txt like this: \
+Type ```cat dummy2.softlink``` \
+If you delet the file dummy2.txt, and try to display the contents of it like this:
+Type ```cat dummy2.softlink```, you will get an error!
+
 
 
 
