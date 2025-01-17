@@ -148,7 +148,12 @@ If we want to remove all the files from /x/y, we can do so like this:
 Navigate to /x/y and type: ```rm *```
 Note: ```rm *``` will remove all the files in the directory, including all the hidden files as well. So, we need to use it with caution. Looks like it is better to use the earlier ```rm -ri``` which will ask us before deleting each file, to clean up our directories (by removing unwanted files). \
 
+Note: We can display the contents of a text file(.txt file) to the terminal by using the ```cat``` command.
+Example: Type ```cat dummy1.txt``` to display the contents of dummy1.txt to the terminal. 
+
 **Adding links:**
+
+
 
 
 
