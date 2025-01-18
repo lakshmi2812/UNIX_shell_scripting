@@ -167,7 +167,16 @@ Example: Type ```ln -s dummy2.txt dummy2.softlink``` \
 Now, you can use the softlink as well to display the contents of dummy2.txt like this: \
 Type ```cat dummy2.softlink``` \
 If you delet the file dummy2.txt, and try to display the contents of it like this:
-Type ```cat dummy2.softlink```, you will get an error!
+Type ```cat dummy2.softlink```, you will get an error! \
+Note: Files in UNIX have two components: the filename and an inode that points to the data. When we create a hardlink, the hardlink gets assigned the same numeric inode (inode is probably sort of an identifier, because inodes are like IDs that only contain digits between 0-9) as that of the one that was pointing to the data. When we create a softlink, the softlink gets a different inode, which is not pointing to the data. So, when a file gets deleted, we are still able to read the data using the hardlink, but not using the softlink as shown in the example above. \
+
+We can numeric inodes allocated to files using the ```ls``` command with the ```-i``` flag as shown below:
+In the above example, navigate to the path /a/b and type ```ls -i``` to see the inodes for all the files and the hardlinks and the softlinks. \
+
+We can get the original filename for a given softlink using the ```readlink``` command as shown below:
+In the example above, type ```readlink dummy2.softlink```. The result will be dummy2.txt which is the origunal file to which the softlink is pointing.
+
+
 
 
 
