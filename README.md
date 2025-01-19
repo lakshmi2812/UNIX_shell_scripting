@@ -182,6 +182,11 @@ Type ```cat dummy1.txt``` to display the contents of dummy.txt along with its li
 We can use the ```stat``` command to know the properties of the file such as, the inode number, the file access(read, write, etc.,) permissions, the date when the file was modofied, etc.,\
 Type ```stat dummy.txt``` to display the properties of the file. \
 
+Use the ```wc``` command to find the line count, word count and byte size for the file.
+Example: Type ```wc dummy1.txt``` to display the number of words and lines and the byte size of that file.
+
+
+
 
 
 
