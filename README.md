@@ -176,6 +176,12 @@ In the above example, navigate to the path /a/b and type ```ls -i``` to see the 
 We can get the original filename for a given softlink using the ```readlink``` command as shown below:
 In the example above, type ```readlink dummy2.softlink```. The result will be dummy2.txt which is the origunal file to which the softlink is pointing.
 
+**Commands to check the file properties**
+We can use ```cat -n``` to display the file text along with the line numbers as shown below: \
+Type ```cat dummy1.txt``` to display the contents of dummy.txt along with its line numbers. \
+We can use the ```stat``` command to know the properties of the file such as, the inode number, the file access(read, write, etc.,) permissions, the date when the file was modofied, etc.,\
+Type ```stat dummy.txt``` to display the properties of the file. \
+
 
 
 
