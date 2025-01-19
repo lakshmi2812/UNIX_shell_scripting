@@ -171,7 +171,7 @@ Type ```cat dummy2.softlink```, you will get an error! \
 Note: Files in UNIX have two components: the filename and an inode that points to the data. When we create a hardlink, the hardlink gets assigned the same numeric inode (inode is probably sort of an identifier, because inodes are like IDs that only contain digits between 0-9) as that of the one that was pointing to the data. When we create a softlink, the softlink gets a different inode, which is not pointing to the data. So, when a file gets deleted, we are still able to read the data using the hardlink, but not using the softlink as shown in the example above. \
 
 We can numeric inodes allocated to files using the ```ls``` command with the ```-i``` flag as shown below:
-In the above example, navigate to the path /a/b and type ```ls -i``` to see the inodes for all the files and the hardlinks and the softlinks. \
+In the above example, navigate to the path /a/b and type ```ls -i``` to see the inodes for all the files and the hardlinks and the softlinks.
 
 We can get the original filename for a given softlink using the ```readlink``` command as shown below:
 In the example above, type ```readlink dummy2.softlink```. The result will be dummy2.txt which is the origunal file to which the softlink is pointing.
@@ -180,7 +180,7 @@ In the example above, type ```readlink dummy2.softlink```. The result will be du
 We can use ```cat -n``` to display the file text along with the line numbers as shown below: \
 Type ```cat dummy1.txt``` to display the contents of dummy.txt along with its line numbers. \
 We can use the ```stat``` command to know the properties of the file such as, the inode number, the file access(read, write, etc.,) permissions, the date when the file was modofied, etc.,\
-Type ```stat dummy.txt``` to display the properties of the file. \
+Type ```stat dummy.txt``` to display the properties of the file.
 
 Use the ```wc``` command to find the line count, word count and byte size for the file.
 Example: Type ```wc dummy1.txt``` to display the number of words and lines and the byte size of that file.
