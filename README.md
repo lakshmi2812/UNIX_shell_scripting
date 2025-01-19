@@ -185,6 +185,11 @@ Type ```stat dummy.txt``` to display the properties of the file. \
 Use the ```wc``` command to find the line count, word count and byte size for the file.
 Example: Type ```wc dummy1.txt``` to display the number of words and lines and the byte size of that file.
 
+Use the ```file``` command to find out the type of file.
+Example: Type ```file dummy1.txt``` to find out the type of that file.
+
+
+
 
 
 
