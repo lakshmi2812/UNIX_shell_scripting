@@ -188,6 +188,12 @@ Example: Type ```wc dummy1.txt``` to display the number of words and lines and t
 Use the ```file``` command to find out the type of file.
 Example: Type ```file dummy1.txt``` to find out the type of that file.
 
+**touch**
+The ```touch``` command ca be used to create a new file. This command can be used with several flags. For example, we can use the ```-d``` flag to modify the access and modified times for a file. \
+Example: To create a new file using the touch command: \
+Type ```touch a.txt```. This creates a new file called a.txt
+To set the access and modified times, type ```touch -d "2024-01-20 03:03:03" a.txt```. This changes the access and modified times for the file to the given date and time.
+
 
 
 
