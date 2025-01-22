@@ -198,7 +198,7 @@ The ```-t``` flag can be used for a similar purpose as well - to change the acce
 **Comparing files**
 There are two commands that can be used to compare two files: The ```cmp``` command and the ```comm``` command. \
 The ```cmp``` command outputs the line number and the character number where there is a difference between the two files. \
-The ```comm``` command outputs three lines: \ 
+The ```comm``` command outputs three lines:\
 Line 1 - outputs what is in file 1 and not in file 2 \
 Line 2 - outputs what is in file 2 and not in file 1 \
 Line 3 - outputs what is in both the files 
