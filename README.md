@@ -193,7 +193,8 @@ The ```touch``` command ca be used to create a new file. This command can be use
 Example: To create a new file using the touch command: \
 Type ```touch a.txt```. This creates a new file called a.txt
 To set the access and modified times, type ```touch -d "2024-01-20 03:03:03" a.txt```. This changes the access and modified times for the file to the given date and time. Now, type ```stat a.txt``` and you will see that the access and modified times for that file have changed. \
-The ```-t``` flag can be used for a similar purpose as well - to change the access and modified times to the specified date and time instead of the current date and time. But, we need to use a different datetime format with the ```-t``` flag. Type ```man touch``` and look up the ```-t``` option to read about this in detail.
+The ```-t``` flag can be used for a similar purpose as well - to change the access and modified times to the specified date and time instead of the current date and time. But, we need to use a different datetime format with the ```-t``` flag. Type ```man touch``` and look up the ```-t``` option to read about this in detail. \
+
 
 
 
