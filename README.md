@@ -203,7 +203,7 @@ Line 1 - outputs what is in file 1 and not in file 2 \
 Line 2 - outputs what is in file 2 and not in file 1 \
 Line 3 - outputs what is in both the files 
 
-Example: Create two files, a.txt and b.txt. Make sure that they have some common text and some text that is unique to each file as well. Now, to test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. You will see that the command outputs the first line at which there is a difference between the text files. It also outputs the character at which the text in the files has started differing. To test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. This compares both the files and outputs three lines as discussed in the command definition above. 
+Example: Create two files, a.txt and b.txt. Make sure that they have some common text and some text that is unique to each file as well. Now, to test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. You will see that the command outputs the first line at which there is a difference between the text files. It also outputs the character at which the text in the files has started differing. To test the ```comm``` command, type the following: ```comm a.txt b.txt```. This compares both the files and outputs three lines as discussed in the command definition above. 
 
 
 
