@@ -193,7 +193,7 @@ The ```touch``` command ca be used to create a new file. This command can be use
 Example: To create a new file using the touch command: \
 Type ```touch a.txt```. This creates a new file called a.txt
 To set the access and modified times, type ```touch -d "2024-01-20 03:03:03" a.txt```. This changes the access and modified times for the file to the given date and time. Now, type ```stat a.txt``` and you will see that the access and modified times for that file have changed. \
-The ```-t``` flag can be used for a similar purpose as well - to change the access and modified times to the specified date and time instead of the current date and time. But, we need to use a different datetime format with the ```-t``` flag. Type ```man touch``` and look up the ```-t``` option to read about this in detail. \
+The ```-t``` flag can be used for a similar purpose as well - to change the access and modified times to the specified date and time instead of the current date and time. But, we need to use a different datetime format with the ```-t``` flag. Type ```man touch``` and look up the ```-t``` option to read about this in detail. 
 
 **Comparing files**
 There are two commands that can be used to compare two files: The ```cmp``` command and the ```comm``` command. \
@@ -201,9 +201,9 @@ The ```cmp``` command outputs the line number and the character number where the
 The ```comm``` command outputs three lines: \ 
 Line 1 - outputs what is in file 1 and not in file 2 \
 Line 2 - outputs what is in file 2 and not in file 1 \
-Line 3 - outputs what is in both the files \
+Line 3 - outputs what is in both the files 
 
-Example: Create two files, a.txt and b.txt. Make sure that they have some common text and some text that is unique to each file as well. Now, to test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. You will see that the command outputs the first line at which there is a difference between the text files. It also outputs the character at which the text in the files has started differing. To test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. This compares both the files and outputs three lines as discussed in the command definition above. \
+Example: Create two files, a.txt and b.txt. Make sure that they have some common text and some text that is unique to each file as well. Now, to test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. You will see that the command outputs the first line at which there is a difference between the text files. It also outputs the character at which the text in the files has started differing. To test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. This compares both the files and outputs three lines as discussed in the command definition above. 
 
 
 
