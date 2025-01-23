@@ -215,6 +215,10 @@ The ```cksum``` command produces a checksum for a given file. The same checksum 
 We can use the ```gzip``` command to compress files. Example: ```gzip a.txt```. This produces a.txt.gz file.\
 We can uncompress this file again using the ```gunzip``` command. Example: ```gunzip a.txt.gz``` gives you the original a.txt file back.\
 
+The ```du``` command can be used to find out the number of 512 byte blocks used by a file. This command can be used with the ```-k``` flag to get the file size in kilobytes.\
+Example: ```du a.txt``` outputs the number of 512 byte blocks used by a.txt and ```du -k a.txt``` gives the file size in kilobytes.\
+
+
 
 
 
