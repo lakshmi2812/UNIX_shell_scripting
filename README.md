@@ -209,6 +209,11 @@ The ```diff``` command can also be used to compare the files line by line. It ca
 Let us say that we have two files - fruits1.txt and fruits2.txt, and we want to find the lines that are different in the files. We can do so using the example below:
 Example: Type ```diff fruits1.txt fruits2.txt``` will output the unique lines in fruits1.txt followed by the unique line in fruits2.txt.\
 
+**Checksum**
+The ```cksum``` command produces a checksum for a given file. The same checksum will be produced for a file if it is intact. This way, we can check to see if the file is intact or corrupted. Example: ```cksum a.txt``` produces a checksum for the file. This command also outputs the file size in bytes.\
+
+
+
 
 
 
