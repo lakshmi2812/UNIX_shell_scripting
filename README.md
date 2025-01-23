@@ -203,7 +203,13 @@ Line 1 - outputs what is in file 1 and not in file 2 \
 Line 2 - outputs what is in file 2 and not in file 1 \
 Line 3 - outputs what is in both the files 
 
-Example: Create two files, a.txt and b.txt. Make sure that they have some common text and some text that is unique to each file as well. Now, to test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. You will see that the command outputs the first line at which there is a difference between the text files. It also outputs the character at which the text in the files has started differing. To test the ```comm``` command, type the following: ```comm a.txt b.txt```. This compares both the files and outputs three lines as discussed in the command definition above. 
+Example: Create two files, a.txt and b.txt. Make sure that they have some common text and some text that is unique to each file as well. Now, to test the ```cmp``` command, type the following: ```cmp a.txt b.txt```. You will see that the command outputs the first line at which there is a difference between the text files. It also outputs the character at which the text in the files has started differing. To test the ```comm``` command, type the following: ```comm a.txt b.txt```. This compares both the files and outputs three lines as discussed in the command definition above.\
+
+The ```diff``` command can also be used to compare the files line by line. It can be used to output any unique lines in the two files.\
+Let us say that we have two files - fruits1.txt and fruits2.txt, and we want to find the lines that are different in the files. We can do so using the example below:
+Example: Type ```diff fruits1.txt fruits2.txt``` will output the unique lines in fruits1.txt followed by the unique line in fruits2.txt.\
+
+
 
 
 
