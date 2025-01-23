@@ -212,6 +212,10 @@ Example: Type ```diff fruits1.txt fruits2.txt``` will output the unique lines in
 **Checksum**
 The ```cksum``` command produces a checksum for a given file. The same checksum will be produced for a file if it is intact. This way, we can check to see if the file is intact or corrupted. Example: ```cksum a.txt``` produces a checksum for the file. This command also outputs the file size in bytes.\
 
+We can use the ```gzip``` command to compress files. Example: ```gzip a.txt```. This produces a.txt.gz file.\
+We can uncompress this file again using the ```gunzip``` command. Example: ```gunzip a.txt.gz``` gives you the original a.txt file back.\
+
+
 
 
 
