@@ -218,6 +218,14 @@ We can uncompress this file again using the ```gunzip``` command. Example: ```gu
 The ```du``` command can be used to find out the number of 512 byte blocks used by a file. This command can be used with the ```-k``` flag to get the file size in kilobytes.\
 Example: ```du a.txt``` outputs the number of 512 byte blocks used by a.txt and ```du -k a.txt``` gives the file size in kilobytes.\
 
+We can also use the ```zip``` command to compress files. The ```zip``` command take atleast two arguments: the filename.zip(the file name after compressing with the .zip extension) and the original file to be compressed. We can compress several files and store them within the same zip file. How we plan to uncompress them in the future is something to think about though!\
+We can uncompress the .zip file using the ```unzip``` command. The unzip command produces a new uncompressed file with the same name as that of the original file. 
+
+Example for the ```zip``` command usage: ```zip  a.zip a.txt``` produces the file a.zip\
+To uncompress a.zip, type: ```unzip a.zip```. This command will prompt you to enter an option to either replace the original file or rename the unzipped file and give it a different name from that of the original file to avoid confusion.\
+
+
+
 
 
 
