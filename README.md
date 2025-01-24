@@ -226,6 +226,9 @@ To uncompress a.zip, type: ```unzip a.zip```. This command will prompt you to en
 
 The ```find``` command can be used to find files or directories. It has a syntax that is a little difficult to remember. It is better to use the man pages to refer to the exact syntax. It has several options(flags). Let us see how we can find a fie using this command using the example below:\
 Type ```find ~/eclipse -type f -name hello*```. This gives you a list of all the files that start with the word 'hello'.\
+If we want the ```find``` command search list to include the links as well, we can do so using the ```-L``` flag.\
+Example: Type ```find -L type f -name hello*``` will return the list of all files that start with 'hello', including any links.\
+
 
 
 
