@@ -224,6 +224,10 @@ We can uncompress the .zip file using the ```unzip``` command. The unzip command
 Example for the ```zip``` command usage: ```zip  a.zip a.txt``` produces the file a.zip\
 To uncompress a.zip, type: ```unzip a.zip```. This command will prompt you to enter an option to either replace the original file or rename the unzipped file and give it a different name from that of the original file to avoid confusion.\
 
+The ```find``` command can be used to find files or directories. It has a syntax that is a little difficult to remember. It is better to use the man pages to refer to the exact syntax. It has several options(flags). Let us see how we can find a fie using this command using the example below:\
+Type ```find ~/eclipse -type f -name hello*```. This gives you a list of all the files that start with the word 'hello'.\
+
+
 
 
 
