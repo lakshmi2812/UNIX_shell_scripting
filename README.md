@@ -229,6 +229,10 @@ Type ```find ~/eclipse -type f -name hello*```. This gives you a list of all the
 If we want the ```find``` command search list to include the links as well, we can do so using the ```-L``` flag.\
 Example: Type ```find -L type f -name hello*``` will return the list of all files that start with 'hello', including any links.\
 
+An action can be performed on each of the files that form the search result of the ```find``` command using the ```-exec``` option as shown below:
+Type ```find ~/eclipse type f -name hello* -exec {} \; to know the file types of each of the files returned in the search.\
+
+
 
 
 
