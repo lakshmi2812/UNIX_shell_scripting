@@ -232,6 +232,9 @@ Example: Type ```find -L type f -name hello*``` will return the list of all file
 An action can be performed on each of the files that form the search result of the ```find``` command using the ```-exec``` option as shown below:
 Type ```find ~/eclipse type f -name hello* -exec {} \; to know the file types of each of the files returned in the search.\
 
+Use the variant ```-newermt``` option with the ```find``` command to get all the files that are newer than a given date as shown below:\
+Type ```find ~/eclipse type -f -name hello* -newer "2018-12-12"``` to get all the files in the given directory that are newer than the specified date.
+
 
 
 
