@@ -252,6 +252,9 @@ In the above example, cd into the backup_sample folder and type ```ls```. Now, t
 ```tar -cf ../archive.tar *```. This command creates a tape arhive of all the files (indicated by * in the command) in the current directory and stores it in the parent directory(indicated by the .. in the command) under the file name archive.tar. Now, go back to parent dircetory and make sure that the archive.tar file has been created. Now, go back to the backup_sample directory and type ```rm *``` to remove all the files in the backup_sample directory. Now, to extract the files from the archive, type the following:\
 ```tar -xf ../archive.tar``` in the backup_sample directory and then type ```ls``` to see that all the files are back!\
 
+The tar command can be used with ```-czf``` and ```-xzf``` options to create and extract compressed tar archives (called tarball archives). Use the exact description given in the above example, but use the ```tar -czf ../archive.tar.gz *``` and ```tar -xzf ../archive.tar.gz``` to take a backup of the files and then extract the files respectively.\
+
+
 
 
 
