@@ -235,12 +235,24 @@ Type ```find ~/eclipse type f -name hello* -exec {} \; to know the file types of
 Use the variant ```-newermt``` option with the ```find``` command to get all the files that are newer than a given date as shown below:\
 Type ```find ~/eclipse type -f -name hello* -newer "2018-12-12"``` to get all the files in the given directory that are newer than the specified date.\
 
-**Taking Backups**
+**Taking Backups**\
+
 There are two commands that we can use to archive files. They are ```cpio``` and ```tar```.\
 ```cpio```\
 The ```cpio``` command can be used to archive out data(taking a backup of our data). Here is an example usage:\
 Let us say that we are in the directory called sample and we have two files - a.txt, b.png and a sub-directory called backup_sample inside it. Let us say that the backup_sample folder has three files - screenshot.png, sad.jpg and and presentation.ppt. Now, cd into the backup_sample folder and type the following:\
 ```ls | cpio -o > ../archive.cpio``` to take a backup of the list of all the current files and store them in the parent directory with the name archive.cpio.\
+To extract the files from the archive do the following:\
+First, cd into the parent directory to make sure that the archive.cpio archive exists. Next, go to backup_sample folder and type ```rm *``` to delete all the files from the directory. Now, type ```ls``` to make sure that the backup_sample directory is empty. Now, to extract all the archive files from the parent directory, type the following:\
+```cpio -i < ../archive.cpio```. Now, type ```ls``` to see that all of the files are back!
+
+```tar```\
+The ```tar``` command can be used to create a tape archive(a type of archive file). Example usage is as shown below:\
+In the above example, cd into the backup_sample folder and type ```ls```. Now, type the following:\
+```tar -cf ../archive.tar *```. This command creates a tape arhive of all the files (indicated by * in the command) in the current directory and stores it in the parent directory(indicated by the .. in the command) under the file name archive.tar. Now, go back to parent dircetory and make sure that the archive.tar file has been created. Now, go back to the backup_sample directory and type ```rm *``` to remove all the files in the backup_sample directory. Now, to extract the files from the archive, type the following:\
+```tar -xf ../archive.tar``` in the backup_sample directory and then type ```ls``` to see that all the files are back!\
+
+
 
 
 
