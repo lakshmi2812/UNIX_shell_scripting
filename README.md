@@ -233,7 +233,15 @@ An action can be performed on each of the files that form the search result of t
 Type ```find ~/eclipse type f -name hello* -exec {} \; to know the file types of each of the files returned in the search.\
 
 Use the variant ```-newermt``` option with the ```find``` command to get all the files that are newer than a given date as shown below:\
-Type ```find ~/eclipse type -f -name hello* -newer "2018-12-12"``` to get all the files in the given directory that are newer than the specified date.
+Type ```find ~/eclipse type -f -name hello* -newer "2018-12-12"``` to get all the files in the given directory that are newer than the specified date.\
+
+**Taking Backups**
+There are two commands that we can use to archive files. They are ```cpio``` and ```tar```.\
+```cpio```\
+The ```cpio``` command can be used to archive out data(taking a backup of our data). Here is an example usage:\
+Let us say that we are in the directory called sample and we have two files - a.txt, b.png and a sub-directory called backup_sample inside it. Let us say that the backup_sample folder has three files - screenshot.png, sad.jpg and and presentation.ppt. Now, cd into the backup_sample folder and type the following:\
+```ls | cpio -o > ../archive.cpio``` to take a backup of the list of all the current files and store them in the parent directory with the name archive.cpio.\
+
 
 
 
