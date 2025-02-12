@@ -264,8 +264,9 @@ Example: ```cat -n file1.txt``` will output the lines in file1.txt to the termin
 The ```cat``` command without any filenames given, will prompt the user for input and when the user types a new line and hts Return, it prints the newline to the terminal. This goes on until the user types ```Ctrl + D``` to exit this loop.\
 Example: Type ```cat``` and press the Return key. Type a line and press the Return key and it will be printed to the output. Repeat for as many lines as you want, and then type ```Ctrl+D``` to exit this command loop.\
 
-We have learnt earlier that the ```echo``` command can be used to print something to the output. But, instead if we want to print it to a file, we can do using the > operator.\
+We have learnt earlier that the ```echo``` command can be used to print something to the output. But, instead if we want to print it to a file, we can do that using the > redirection operator.\
 For example: ```echo hello! > hello.txt``` will create a new file called hello.txt and write hello! to that file.\
+
 
 
 
