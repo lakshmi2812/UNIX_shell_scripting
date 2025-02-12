@@ -268,6 +268,10 @@ We have learnt earlier that the ```echo``` command can be used to print somethin
 For example: ```echo hello! > hello.txt``` will create a new file called hello.txt and write hello! to that file.\
 If that file already has some contents in it, those contents will be overwritten by the above command. If we don't want that to happen, we need to use the >> operator which will instead append the text to the file.\
 
+We can escape the ```\n``` newline and ```\t``` tab characters using the ```-e``` option with the echo command and also the \ character.\
+Example: Type ```echo -e \``` to get a prompt where you can enter multiple lines and the Return key will be ignored. Now type ```Here is a \\nNew line and a new \\tTab```
+
+
 
 
 
