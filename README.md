@@ -261,7 +261,10 @@ Multiple filenames can be given to the ```cat``` command to output the contents 
 Example: ```cat file1.txt file2.txt``` will output the contents of both file1.txt and file2.txt one after the other to the terminal.\
 We can number the lines in the file by using the ```-n``` option with the ```cat``` command.\
 Example: ```cat -n file1.txt``` will output the lines in file1.txt to the terminal and also give numbers to the lines in the file.\
-The ```cat``` command without any filenames given, will prompt the user for input and when the user types a new line and hts Return, it prints the newline to the terminal.\
+The ```cat``` command without any filenames given, will prompt the user for input and when the user types a new line and hts Return, it prints the newline to the terminal. This goes on until the user types ```Ctrl + D``` to exit this loop.\
+Example: Type ```cat``` and press the Return key. Type a line and press the Return key and it will be printed to the output. Repeat for as many lines as you want, and then type ```Ctrl+D``` to exit this command loop.\
+
+
 
 
 
