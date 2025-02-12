@@ -259,6 +259,10 @@ The ```cat``` command can be used to accept user input and print it to the outpu
 ```cat filename.txt``` will print the contents of the file to the terminal.\
 Multiple filenames can be given to the ```cat``` command to output the contents of multiple files one after the other.\
 Example: ```cat file1.txt file2.txt``` will output the contents of both file1.txt and file2.txt one after the other to the terminal.\
+We can number the lines in the file by using the ```-n``` option with the ```cat``` command.\
+Example: ```cat -n file1.txt``` will output the lines in file1.txt to the terminal and also give numbers to the lines in the file.\
+
+
 
 
 
