@@ -257,6 +257,8 @@ The tar command can be used with ```-czf``` and ```-xzf``` options to create and
 ```cat```
 The ```cat``` command can be used to accept user input and print it to the output(terminal). For example:\
 ```cat filename.txt``` will print the contents of the file to the terminal.\
+Multiple filenames can be given to the ```cat``` command to output the contents of multiple files one after the other.\
+
 
 
 
