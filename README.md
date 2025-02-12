@@ -266,6 +266,9 @@ Example: Type ```cat``` and press the Return key. Type a line and press the Retu
 
 We have learnt earlier that the ```echo``` command can be used to print something to the output. But, instead if we want to print it to a file, we can do that using the > redirection operator.\
 For example: ```echo hello! > hello.txt``` will create a new file called hello.txt and write hello! to that file.\
+If that file already has some contents in it, those contents will be overwritten by the above command. If we don't want that to happen, we need to use the >> operator which will instead append the text to the file.\
+
+
 
 
 
