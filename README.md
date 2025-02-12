@@ -255,7 +255,9 @@ In the above example, cd into the backup_sample folder and type ```ls```. Now, t
 The tar command can be used with ```-czf``` and ```-xzf``` options to create and extract compressed tar archives (called tarball archives). Use the exact description given in the above example, but use the ```tar -czf ../archive.tar.gz *``` and ```tar -xzf ../archive.tar.gz``` to take a backup of the files and then extract the files respectively.\
 
 ```cat```
-The ```cat``` command can be used to accept user input and print it to the output(terminal). 
+The ```cat``` command can be used to accept user input and print it to the output(terminal). For example:\
+```cat filename.txt``` will print the contents of the file to the terminal.\
+
 
 
 
