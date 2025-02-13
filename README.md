@@ -271,6 +271,9 @@ If that file already has some contents in it, those contents will be overwritten
 We can escape the ```\n``` newline and ```\t``` tab characters using the ```-e``` option with the echo command and also the \ character.\
 Example: Type ```echo -e \``` to get a prompt where you can enter multiple lines and the Return key will be ignored. Now type ```Here is a \\nNew line and a new \\tTab```
 
+**Redirecting Output**
+The output of the first command can be redirected to the next command using the ```|``` pipeline operator.
+
 
 
 
