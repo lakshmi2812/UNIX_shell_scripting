@@ -276,7 +276,14 @@ The ```|``` pipe operator allows the output from one command to be given as the 
 
 The ```|``` pipe command is often used with the ```more``` option to display large text files or manual pages, one page at a time. If you do not give the ```more``` option, the cursor will scroll to the bottom of the screen.
 
-Example: Suppose you have a file called stories.txt that has many stories, spanning multiple pages. Type ```cat stories.txt | more``` to display one screen at a time. You can then use the Return key to scroll line by line or the up and down arrow keys to scroll up or down line by line. You can also use the spacebar to scroll page by page. Type ```q``` to quit this command.
+Example: Suppose you have a file called stories.txt that has many stories, spanning multiple pages. Type ```cat stories.txt | more``` to display one screen at a time. You can then use the Return key to scroll line by line or you can also use the spacebar to scroll page by page. Type ```q``` to quit this command.
+
+A similar option is the ```less``` command that serves a similar purpose. Additionally, it allows you to also use the up and down arrow keys to scroll up or down line by line.
+
+Example: ```cat stories.txt | less```
+
+
+
 
 
 
