@@ -272,9 +272,9 @@ We can escape the ```\n``` newline and ```\t``` tab characters using the ```-e``
 Example: Type ```echo -e \``` to get a prompt where you can enter multiple lines and the Return key will be ignored. Now type ```Here is a \\nNew line and a new \\tTab```
 
 **Redirecting Output**
-The ```|``` pipe operator allows the output from one command to be given as the input to the next command. When we give two or more commands like this, separated by the ```|``` operator, it is called a pipeline.  
+The ```|``` pipe operator allows the output from one command to be given as the input to the next command. When we give two or more commands like this, separated by the ```|``` operator, it is called a pipeline.
 
-
+The ```|``` pipe command is often used with the ```more``` option to display large text files or manual pages, one page at a time. If you do not give the ```more``` option, the cursor will scroll to the bottom of the screen.
 
 
 
