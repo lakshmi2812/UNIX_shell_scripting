@@ -274,13 +274,21 @@ Example: Type ```echo -e \``` to get a prompt where you can enter multiple lines
 **Redirecting Output**
 The ```|``` pipe operator allows the output from one command to be given as the input to the next command. When we give two or more commands like this, separated by the ```|``` operator, it is called a pipeline.
 
-The ```|``` pipe command is often used with the ```more``` option to display large text files or manual pages, one page at a time. If you do not give the ```more``` option, the cursor will scroll to the bottom of the screen.
+The ```|``` pipe command is often used with the ```more``` option to display large text files or manual pages, one page at a time. If we do not give the ```more``` option, the cursor will scroll to the bottom of the screen.
 
-Example: Suppose you have a file called stories.txt that has many stories, spanning multiple pages. Type ```cat stories.txt | more``` to display one screen at a time. You can then use the Return key to scroll line by line or you can also use the spacebar to scroll page by page. Type ```q``` to quit this command.
+Example: Suppose we have a file called stories.txt that has many stories, spanning multiple pages. Type ```cat stories.txt | more``` to display one screen at a time. We can then use the Return key to scroll line by line or you can also use the spacebar to scroll page by page. Type ```q``` to quit this command.
 
-A similar option is the ```less``` command that serves a similar purpose. Additionally, it allows you to also use the up and down arrow keys to scroll up or down line by line.
+A similar option is the ```less``` command that serves a similar purpose. Additionally, it allows us to also use the up and down arrow keys to scroll up or down line by line.
 
 Example: ```cat stories.txt | less```
+
+We can use the ```head``` and ```tail``` options with the cat command using the ```|``` opeartor to display the first few or the last few lines of a file respectively. \
+For Example: Type ```cat -n stories.txt | head``` to display the first 10 lines of the stories.txt file. The lines will be numbered.
+Type ```cat -n stories.txt | tail``` to display the last 10 lines of the stories.txt file, with the lines numbered.\
+Note that the ```-n``` option numbers the empty lines as well. The ```-b``` option numbers only the non-empty lines. But, the caveat with the ```-b``` option is that the non-empty lines will be counted too as part of the 10 lines displayed.
+
+We can use the ```head -n``` or the ```tail -n``` options to display only a specific number of lines on the screen. \
+Example: ```cat -n stories.txt | head -6``` will display the first 6 lines of the file, and ```cat -n stories.txt | tail -6``` will display the last 6 lines of the file respectively.
 
 
 
