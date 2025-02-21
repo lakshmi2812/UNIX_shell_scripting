@@ -290,6 +290,14 @@ Note that the ```-n``` option numbers the empty lines as well. The ```-b``` opti
 We can use the ```head -n``` or the ```tail -n``` options to display only a specific number of lines on the screen. \
 Example: ```cat -n stories.txt | head -6``` will display the first 6 lines of the file, and ```cat -n stories.txt | tail -6``` will display the last 6 lines of the file respectively.
 
+**Seeking Strings**
+```grep```:  The ```grep command can be used to find a string in a given file or set of files. \
+Example: ```grep 'story' stories.txt``` will display all the lines in the file stories.txt that have the string 'story'. For instance, lines containing words like history, storyteller, etc., will aslo be displayed. To see the line numbers of the displayed lines, we can type ```grep -n 'story' stories.txt```
+
+We can also use ```grep``` to find the string in mutiple files. For example, ```grep 'story' *.txt``` will display the lines containing 'story' in all the text files in the current location.\
+
+
+
 
 
 
