@@ -300,6 +300,10 @@ If we only want to display the names of the files containing the given string, a
 
 If we only want to display the count of the files containing the given string, we do so as follows: Type ```grep -c 'hi' *.txt``` to get the number of file in the current location that contain the string 'hi'.\
 
+The ```grep``` command can be used along with the ```|``` operator to fetch the files containing a given string among the list of files obtained as a result of the command used before the ```|``` operator. For example: Type ```ls * | grep -i 'hi'``` will do the following:\
+The first command ```ls *``` will fetch all the files in the current directory and also in its sub-directories. The second command ```grep -i 'hi'``` will make a case-insensitive search(because of the -i) and fetch the names of the files containing the string 'hi'.\
+
+
 
 
 
