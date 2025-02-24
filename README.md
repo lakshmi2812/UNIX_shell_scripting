@@ -296,6 +296,12 @@ Example: ```grep 'story' stories.txt``` will display all the lines in the file s
 
 We can also use ```grep``` to find the string in mutiple files. For example, ```grep 'story' *.txt``` will display the lines containing 'story' in all the text files in the current location.\
 
+If we only want to display the names of the files containing the given string, and not the lines containing the string, we can use the ```-l``` option as follows: Type ```grep -l 'hi' *.txt``` to display the names of all the text files in the current location that have the string 'hi' in them.\
+
+If we only want to display the count of the files containing the given string, we do so as follows: Type ```grep -c 'hi' *.txt``` to get the number of file in the current location that contain the string 'hi'.\
+
+
+
 
 
 
