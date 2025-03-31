@@ -1,5 +1,5 @@
 # UNIX_shell_scripting
-Introduction to the basics of the BASH shell, the frequently used commands and some BASH scripts
+Introduction to the basics of the BASH shell, the frequently used commands and some BASH scripts. The bash_scripts folder contains some sample scripts for writing for loops, while and until loops, select statements and if-elif-else blocks, and functions among others in Bash. There is also a program to write Bubble sort in Bash.
 
 **Note:**
 UNIX is a multi-user Operating System(OS). Apple's MAC OS is based on UNIX. 
